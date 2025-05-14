@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Serviços de chaveiro 24h com atendimento rápido, seguro e profissional.">
+  <title>Chaveiro Enigma</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7') no-repeat center center/cover;
+      height: 300px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: 0;
+    }
+    .hero h1 {
+      z-index: 1;
+      position: relative;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      text-decoration: none;
+      z-index: 1000;
+    }
+    footer {
+      background-color: #002f6c;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="bg-primary text-white text-center py-4">
+    <h1>Chaveiro Enigma</h1>
+    <p>Atendimento 24 horas • Residencial • Automotivo • Comercial</p>
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Chaveiro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          <li class="nav-item"><a class="nav-link" href="#horario">Horário</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Segurança e agilidade em um só lugar</h1>
+  </section>
+
+  <section id="servicos" class="container my-5">
+    <h2 class="mb-4">Nossos Serviços</h2>
+    <ul class="list-group">
+      <li class="list-group-item">🔑 Cópia de chaves comuns e codificadas</li>
+      <li class="list-group-item">🚪 Abertura de portas e trocas de fechaduras</li>
+      <li class="list-group-item">🚗 Chaves automotivas e canivete</li>
+      <li class="list-group-item">📦 Venda de cadeados e acessórios de segurança</li>
+      <li class="list-group-item">📞 Atendimento 24h com chaveiro móvel</li>
+<li class="list-group-item">🖋️ Temos fábrica de carimbo</li>
+    
+<div class="alert alert-warning mt-4 fw-bold text-center" role="alert">
+  🖋️ Temos fábrica de carimbo!
+</div>
+</ul>
+  </section>
+
+  <section id="contato" class="container my-5">
+    <h2 class="mb-4">Contato</h2>
+    <p><strong>Endereço:</strong> Avenida Papa João Paulo I, Número 3075 - Jardim Presidente Dutra<br><em>Dentro do estacionamento do Mercado Lopes, próximo à Caixa Econômica Federal.</em></p>
+    <p><strong>Telefone:</strong> (11) 99123-5167</p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/5511991235167" target="_blank">(11) 99123-5167</a></p>
+
+    
+<p><strong>Experiência:</strong> Mais de 22 anos no local e 30 anos de profissão.</p>
+<h4 class="mt-4">Envie uma mensagem</h4>
+    <form action="mailto:seuemail@example.com" method="post" enctype="text/plain">
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" name="Nome" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensagem" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="mensagem" name="Mensagem" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+
+  <section id="horario" class="container my-5">
+    <h2 class="mb-4">Horário de Atendimento</h2>
+    <p><strong>Segunda a Sábado:</strong> 8h às 21h</p>
+    <p><strong>Plantão:</strong> 24h disponível</p>
+  </section>
+
+  
+
+<section class="container my-5">
+  <div class="alert alert-success fw-bold text-center" role="alert">
+    ⭐ Avaliações dos nossos clientes ⭐
+  </div>
+  <div class="text-center">
+    <p class="fs-5"><strong>Média de Avaliação:</strong> ★★★★★ 5.0</p>
+    <p class="fst-italic">"Excelente atendimento, rápido e confiável. Recomendo para todos!"</p>
+    <p class="fst-italic">"Serviço de qualidade, preço justo e muita experiência no que faz."</p>
+    <p class="fst-italic">"Já sou cliente há anos, sempre fui bem atendido."</p>
+  </div>
+</section>
+
+<section class="container my-5">
+  <div class="alert alert-info fw-bold text-center" role="alert">
+    Alguns de nossos clientes:
+  </div>
+  <p class="text-center fw-bold">
+    Lopes Supermercado, Banco Itaú, Banco Santander, Escolas, Bruno Ricco, Zilda Romeiro, Antonio Pratice,<br>
+    Falcão Automóveis, Jardim Automóveis, Super Visão, Sorridentes, etc.
+  </p>
+</section>
+<footer>
+    <p>&copy; 2025 Chaveiro Enigma. Todos os direitos reservados.</p>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5511991235167" target="_blank" aria-label="Fale conosco no WhatsApp">💬</a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
